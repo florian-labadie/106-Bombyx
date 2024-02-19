@@ -8,12 +8,14 @@ def bombyx1(n, k):
     if not 1 <= n <= 100 or not 1 <= k <= 4:
         return 84
     print(f"{i} {n:.2f}")
-    while k >= 1:
+    while i < 100:
         n = bom(n, k)
+        k += 0.01
         i += 1
         print(f"{i} {n:.2f}")
-        k -= 0.01
     return 0
 
 def bombyx2(n, i0, i1):
+    if not 1 <= n <= 100:
+        return 84
     return 0
