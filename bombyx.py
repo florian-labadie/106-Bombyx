@@ -13,6 +13,8 @@ def bombyx1(n, k):
     print(f"1 {n:.2f}")
     for i in range(2, 101):
         n = bom(n, k)
+        if n < 0:
+            n = 0
         print(f"{i} {n:.2f}")
     return 0
 
