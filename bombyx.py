@@ -8,10 +8,8 @@ def bom1(n, k, i0, i1):
 
 def bombyx1(n, k):
     n, k = int(n), float(k)
-    if not n <= 100 or not (1.0 <= k <= 4.0):
+    if not (1 <= n <= 100) or not (1.0 <= k <= 4.0):
         return 84
-    if n < 0:
-        n = 0
     print(f"1 {n:.2f}")
     for i in range(2, 101):
         n = bom(n, k)
@@ -21,10 +19,8 @@ def bombyx1(n, k):
 def bombyx2(n, i0, i1):
     n, i0, i1 = int(n), int(i0), int(i1)
     tmp = n
-    if not n <= 100 or not (1 < i0 <= i1):
+    if not (1 <= n <= 100) or not (1 < i0 <= i1):
         return 84
-    if n < 0:
-        n = 0
     for k in range(100, 401):
         for _ in range(1, i0 - 1):
             n = bom(n, k / 100)
