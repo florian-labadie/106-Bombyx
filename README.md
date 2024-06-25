@@ -1,6 +1,6 @@
 ---
 
-# Evolution des Papillons
+# 106 Bombyx
 
 Ce projet est une simulation de l'évolution des générations de papillons en utilisant un modèle mathématique. Le programme en Python génère des données pour visualiser cette évolution et les imprime sous un format compatible avec gnuplot.
 
@@ -99,6 +99,6 @@ cat drawer.gnu | gnuplot
 ## Contributeurs
 
 - Labadie Florian ([GitHub](https://github.com/florian-labadie))
-- Axel Lavrador ([GitHub)](https://github.com/florian-labadie))
+- Axel Lavrador ([GitHub)](https://github.com/Oursegamin))
 
 ---
