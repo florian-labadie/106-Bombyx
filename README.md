@@ -89,7 +89,13 @@ Pour générer des données pour n = 10 de la génération 1000 à 1010 :
 ```bash
 ./106bombyx 10 1000 1010 > data
 ```
+### Affichage graphique
 
+Pour afficher le graphique de bifurcation vers le chaos.
+
+```bash
+cat drawer.gnu | gnuplot
+```
 ## Contributeurs
 
 - Labadie Florian ([GitHub](https://github.com/florian-labadie))
