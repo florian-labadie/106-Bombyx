@@ -2,7 +2,7 @@ def calc_generation(n, k):
     return (k * n) * (1000 - n) / 1000
 
 def further_generation(n, k, i0, i1):
-    for i in range(i0, i1 + 1):
+    for _ in range(i0, i1 + 1):
         n = calc_generation(n, k)
         print(f"{k:.2f} {n:.2f}")
 
