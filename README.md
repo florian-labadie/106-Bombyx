@@ -36,7 +36,7 @@ Le modèle utilisé est défini comme suit :
 Clonez le dépôt Git :
 
 ```bash
-git clone https://github.com/votre-utilisateur/evolution-papillons.git
+git clone https://git@github.com:florian-labadie/106-Bombyx.git
 cd evolution-papillons
 ```
 
